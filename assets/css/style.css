@@ -1,11 +1,13 @@
 body {
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-    width: 1250px;    
+    width: 1250px;
+    background-image: url("../images/gray-background.jpg");    
 }
 
 #bigContainer {
-    background-color: #ebebd8;
+    
     width: 1250px;
+    height: 600px;
     
 }
 
@@ -13,15 +15,41 @@ body {
     width: 960px;
     margin: 0 auto;
     background-color: #ebebd8;
-    padding-top: 40px;
-   
+    margin-top: 40px;   
 }
 
 header {
+    background-color: #ffffff;
     color: #a6aeb4;
     position: relative;
-    margin-left: 145px;
-    margin-right: 145px;
+    padding-left: 145px;
+    height: 82px;
+    width: 100%;
+    
+}
+
+header h1 {
+    float: left;
+}
+
+header p {
+    float: right;
+}
+
+.contact {
+    float: right;
+}
+
+.portfolio {
+    float: right;
+}
+
+.about {
+    float: right;
+}
+
+p {
+    padding-bottom: 14px;
 }
 
 #bottom {
@@ -29,18 +57,27 @@ header {
     border-bottom: 2px solid #cccccc;
 }
 
+h1 {
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    background-color: #4aaaa5;
+    color: #ffffff;
+    width: 220px;
+    text-align: center;
+
+}
+
 #name {
     background-color: #4aaaa5;
     color: #ffffff;
     float: left;
-    width: 233px;
+    width: 250px;
     height: 82px;  
     position: relative;
     font-size: 24px;
     
 }
 
-#name p {
+#name h1 {
     margin: 0;
     position: absolute;
     top: 50%;
@@ -54,7 +91,8 @@ header {
     width: 250px;
     height: 82px;
     float: right;
-    font-size: 22px;
+    font-size: 20px;
+    padding-right: 580px;
     
 }
 
@@ -68,29 +106,45 @@ header {
 }
 
 
-h1 {
-    font-family: 'Georgia', Times, Times New Roman, serif;
-    color: #4aaaa5;
-    background-color: #ebebd8;
-}
 
-h1 p {
+
+h2 p {
     color: #4aaaa5;
     background-color: #ffffff;
     font-size: 24px;
     padding-top: 20px;
     padding-bottom: 20px;
+    font-family: 'Georgia', Times, Times New Roman, serif;
 }
 
 #imageDiv {
     background-color: #ffffff;
     padding-left: 27px;
     padding-right: 27px;
+    border: 2px solid #cccccc;
 }
 
 #imageDiv img {
     float: left;
     margin-right: 24px;
+}
 
 }
 
+#teal {
+    height: 5px;
+    background-color: #4aaaa5;
+   
+}
+
+#gray {
+    height: 50px;
+    background-color: #666666;
+}
+
+#copyright {
+    text-align: center;
+    color: #dddddd;
+    padding-top: 34px;
+    font-size: 11px;
+}
