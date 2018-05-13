@@ -29,6 +29,10 @@ header {
     
 }
 
+a:default {
+    color: #a6aeb4;
+}
+
 header h1 {
     float: left;
 }
@@ -196,4 +200,28 @@ h2 p {
     padding-right: 27px;
     border: 2px solid #cccccc;
     height: 800px;
+}
+
+/* Contact */
+
+input {
+    width: 100%;
+}
+
+input[type=submit] {
+    width: 150px;
+    background-color: #4aaaa5;
+    color: #ffffff;
+    border: 0px;
+    height: 40px;
+    width: 100px;
+}
+
+textarea {
+    width: 100%;
+}
+
+#grayLine {
+    background-color: #cccccc;
+    height: 3px;
 }
